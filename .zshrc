@@ -1,5 +1,6 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/anhdat/.oh-my-zsh
+ZSH_CUSTOM=~/.oh-my-zsh-custom
+export ZSH=~/.oh-my-zsh
 ZSH_THEME="anhdat"
 plugins=(git brew git-flow-completion pip pod sublime osx httpie fasd)
 plugins+=(zsh-completions)
