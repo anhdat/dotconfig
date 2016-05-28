@@ -1,0 +1,44 @@
+[init]
+  templatedir = ~/.git_template
+[push]
+  default = current
+[color]
+  ui = auto
+[alias]
+  aa = add --all
+  ap = add --patch
+	branches = !legit branches
+  ci = commit -v
+  co = checkout
+  st = status
+	graft = !legit graft
+	harvest = !legit harvest
+	publish = !legit publish
+	unpublish = !legit unpublish
+	sprout = !legit sprout
+	sync = !legit sync
+	switch = !legit switch
+	resync = !legit resync
+[core]
+  excludesfile = ~/.gitignore
+  autocrlf = input
+	editor = /usr/local/bin/subl -n -w
+[merge]
+  ff = only
+[commit]
+  template = ~/.gitmessage
+[fetch]
+  prune = true
+[rebase]
+  autosquash = true
+[include]
+  path = ~/.gitconfig.local
+[user]
+	name = anhdat
+	email = mr.anhdat@gmail.com
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+[credential]
+	helper = osxkeychain

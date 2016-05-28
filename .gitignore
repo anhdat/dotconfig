@@ -1,0 +1,60 @@
+.Rhistory
+.atom
+.aws
+.bash_profile
+.bashrc
+.brewfile
+.config
+.emacs.d
+.gemrc
+.git
+.gvimrc
+.heroku
+.ipython
+.irssi
+.netrc
+.nvim
+.profile
+.psqlrc
+.slate.js
+.subversion
+.taskrc
+.teamocil
+.tigrc
+.tmuxinator
+.vim
+.z
+.zshrc.local
+.oh-my-zsh
+Developer/*
+Library/*
+
+# Created by https://www.gitignore.io/api/osx
+
+### OSX ###
+*.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
