@@ -18,9 +18,6 @@ export LSCOLORS=gxfxcxdxbxegedabagacad
 export SWIFTENV_ROOT="$HOME/.swiftenv"
 export PATH="$SWIFTENV_ROOT/bin:$PATH"
 
-
-export HOMEBREW_GITHUB_API_TOKEN="1bf7d603c12a31290312df1c454c5775bc46d909"
-
 # export WORKON_HOME=~/envs
 
 # export GIT_AUTHOR_DATE="2016-05-10T17:15:54"
@@ -31,3 +28,5 @@ export LANG=en_US.UTF-8
 
 # Fix window name not display correctly on tmux using tmuxinator
 export DISABLE_AUTO_TITLE=true
+
+source $ZSH_CUSTOM/tokens.zsh
