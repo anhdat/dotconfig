@@ -12,6 +12,9 @@ alias vi=nvim
 # Bundler
 alias b="bundle"
 
+# g for go to
+alias g="z"
+
 # Rails
 alias migrate="rake db:migrate db:rollback && rake db:migrate"
 alias s="rspec"
